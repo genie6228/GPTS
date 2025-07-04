@@ -57,11 +57,17 @@
             border: 1px solid rgba(0, 0, 0, 0.04);
             position: relative;
             overflow: hidden;
+            text-decoration: none;
+            color: inherit;
+            display: block;
+            cursor: pointer;
         }
 
         .card:hover {
             transform: translateY(-8px);
             box-shadow: 0 12px 40px rgba(0, 0, 0, 0.15);
+            text-decoration: none;
+            color: inherit;
         }
 
         .card-header {
@@ -101,35 +107,8 @@
             color: #86868b;
             font-size: 0.95rem;
             line-height: 1.5;
-            margin-bottom: 2rem;
+            margin-bottom: 0;
             font-weight: 400;
-        }
-
-        .card-button {
-            display: inline-flex;
-            align-items: center;
-            justify-content: center;
-            background: #007AFF;
-            color: white;
-            text-decoration: none;
-            padding: 12px 28px;
-            border-radius: 12px;
-            font-weight: 500;
-            font-size: 0.95rem;
-            transition: all 0.2s ease;
-            border: none;
-            cursor: pointer;
-            letter-spacing: -0.01em;
-        }
-
-        .card-button:hover {
-            background: #0056CC;
-            transform: translateY(-1px);
-            box-shadow: 0 6px 20px rgba(0, 122, 255, 0.4);
-        }
-
-        .card-button:active {
-            transform: translateY(0);
         }
 
         .footer {
@@ -215,13 +194,6 @@
                 margin-bottom: 2.5rem;
             }
 
-            .card-button {
-                padding: 14px 32px;
-                font-size: 1rem;
-                font-weight: 600;
-                border-radius: 14px;
-            }
-
             .footer {
                 margin-top: 4rem;
                 padding: 2.5rem 0;
@@ -293,15 +265,6 @@
                 margin-bottom: 2rem;
             }
 
-            .card-button {
-                padding: 12px 28px;
-                font-size: 0.95rem;
-                font-weight: 600;
-                border-radius: 12px;
-                width: 100%;
-                justify-content: center;
-            }
-
             .footer {
                 margin-top: 3.5rem;
                 padding: 2rem 0;
@@ -348,11 +311,6 @@
                 font-size: 0.9rem;
             }
 
-            .card-button {
-                padding: 12px 24px;
-                font-size: 0.9rem;
-            }
-
             .footer-subtitle {
                 font-size: 1.25rem;
             }
@@ -365,7 +323,8 @@
         <p class="subtitle">효율적인 업무를 위한 AI 도구 모음집</p>
         
         <div class="grid">
-            <div class="card">
+            <a href="https://chatgpt.com/g/g-6802e5fa861081919f1a842cfbfae06a-jigweonmunje-sangdam-mabeobsa" 
+               class="card" target="_blank">
                 <div class="card-header">
                     <div class="card-icon">👥</div>
                     <div class="card-info">
@@ -373,11 +332,10 @@
                         <p class="card-description">직원문제 상담, 퇴사, 이직 관련 상담을 도와드립니다.</p>
                     </div>
                 </div>
-                <a href="https://chatgpt.com/g/g-6802e5fa861081919f1a842cfbfae06a-jigweonmunje-sangdam-mabeobsa" 
-                   class="card-button" target="_blank">바로가기</a>
-            </div>
+            </a>
 
-            <div class="card">
+            <a href="https://chatgpt.com/g/g-67fc5e2cb8e481918f7af26df91186cc-junggangye-seo-kiweodeu-tamsaeggi" 
+               class="card" target="_blank">
                 <div class="card-header">
                     <div class="card-icon">🔍</div>
                     <div class="card-info">
@@ -385,11 +343,10 @@
                         <p class="card-description">빠른 키워드 4주차 검색으로 SEO 최적화를 도와드립니다.</p>
                     </div>
                 </div>
-                <a href="https://chatgpt.com/g/g-67fc5e2cb8e481918f7af26df91186cc-junggangye-seo-kiweodeu-tamsaeggi" 
-                   class="card-button" target="_blank">바로가기</a>
-            </div>
+            </a>
 
-            <div class="card">
+            <a href="https://chatgpt.com/g/g-67fd93d4d944819184174585353cd18d-beuraendeu-seutori-saengseonggi" 
+               class="card" target="_blank">
                 <div class="card-header">
                     <div class="card-icon">📝</div>
                     <div class="card-info">
@@ -397,11 +354,10 @@
                         <p class="card-description">브랜드 스토리를 창의적으로 생성해주는 도구입니다.</p>
                     </div>
                 </div>
-                <a href="https://chatgpt.com/g/g-67fd93d4d944819184174585353cd18d-beuraendeu-seutori-saengseonggi" 
-                   class="card-button" target="_blank">바로가기</a>
-            </div>
+            </a>
 
-            <div class="card">
+            <a href="https://chatgpt.com/g/g-67c8fb46cc1081919dc73251b5e0a5d2-junggangye-ibenteu-saengseonggi" 
+               class="card" target="_blank">
                 <div class="card-header">
                     <div class="card-icon">🎯</div>
                     <div class="card-info">
@@ -409,11 +365,10 @@
                         <p class="card-description">다양한 이벤트를 기획하고 생성하는 데 도움을 드립니다.</p>
                     </div>
                 </div>
-                <a href="https://chatgpt.com/g/g-67c8fb46cc1081919dc73251b5e0a5d2-junggangye-ibenteu-saengseonggi" 
-                   class="card-button" target="_blank">바로가기</a>
-            </div>
+            </a>
 
-            <div class="card">
+            <a href="https://chatgpt.com/g/g-67fc5daff01c8191a997fda8a023ccc5-junggangye-seo-giban-beulrogeu-geulsseugi" 
+               class="card" target="_blank">
                 <div class="card-header">
                     <div class="card-icon">✍️</div>
                     <div class="card-info">
@@ -421,11 +376,10 @@
                         <p class="card-description">SEO 최적화된 블로그 글을 작성해주는 전문 도구입니다.</p>
                     </div>
                 </div>
-                <a href="https://chatgpt.com/g/g-67fc5daff01c8191a997fda8a023ccc5-junggangye-seo-giban-beulrogeu-geulsseugi" 
-                   class="card-button" target="_blank">바로가기</a>
-            </div>
+            </a>
 
-            <div class="card">
+            <a href="https://chatgpt.com/g/g-67fc5c0ff3f88191889f9cb365557720-junggangye-beuraendeu-name-saengseonggi" 
+               class="card" target="_blank">
                 <div class="card-header">
                     <div class="card-icon">🏷️</div>
                     <div class="card-info">
@@ -433,11 +387,10 @@
                         <p class="card-description">창의적이고 기억에 남는 브랜드 이름을 생성해드립니다.</p>
                     </div>
                 </div>
-                <a href="https://chatgpt.com/g/g-67fc5c0ff3f88191889f9cb365557720-junggangye-beuraendeu-name-saengseonggi" 
-                   class="card-button" target="_blank">바로가기</a>
-            </div>
+            </a>
 
-            <div class="card">
+            <a href="https://chatgpt.com/g/g-67fd95e12278819195f68f7922d3f35d-beuraendeukeonsebteu-saengseonggi" 
+               class="card" target="_blank">
                 <div class="card-header">
                     <div class="card-icon">💡</div>
                     <div class="card-info">
@@ -445,11 +398,10 @@
                         <p class="card-description">독창적인 브랜드 컨셉트와 아이디어를 개발해드립니다.</p>
                     </div>
                 </div>
-                <a href="https://chatgpt.com/g/g-67fd95e12278819195f68f7922d3f35d-beuraendeukeonsebteu-saengseonggi" 
-                   class="card-button" target="_blank">바로가기</a>
-            </div>
+            </a>
 
-            <div class="card">
+            <a href="https://chatgpt.com/g/g-67fc5d4435408191bcda23223b34e5db-junggangye-syoceu-seukeuribteu-saengseonggi" 
+               class="card" target="_blank">
                 <div class="card-header">
                     <div class="card-icon">🎬</div>
                     <div class="card-info">
@@ -457,9 +409,7 @@
                         <p class="card-description">매력적인 숏폼 콘텐츠 스크립트를 작성해드립니다.</p>
                     </div>
                 </div>
-                <a href="https://chatgpt.com/g/g-67fc5d4435408191bcda23223b34e5db-junggangye-syoceu-seukeuribteu-saengseonggi" 
-                   class="card-button" target="_blank">바로가기</a>
-            </div>
+            </a>
         </div>
 
         <div class="footer">
